@@ -20,6 +20,15 @@ public class ForLoop {
         Arrays.sort(numbers, Comparator.reverseOrder());
         System.out.println(Arrays.toString(numbers));
 
+        //Odd and even numbers from 0 to 1000
+
+        for(int i = 0; i < 1001; i++){
+            if (i % 2 == 0){
+                System.out.println("The number " + i + " is even");
+            }else{
+                System.out.println("The number " + i + " is odd");
+            }
+        }
         }
 
 }
