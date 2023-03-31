@@ -28,7 +28,9 @@ public class ForLoop {
             }else{
                 System.out.println("The number " + i + " is odd");
             }
+
         }
+
         }
 
 }

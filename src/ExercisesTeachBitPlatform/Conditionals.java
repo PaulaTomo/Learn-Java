@@ -1,5 +1,6 @@
 package ExercisesTeachBitPlatform;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Conditionals {
@@ -61,5 +62,23 @@ public class Conditionals {
             System.out.println("False");
         }
 
+       // Scrie un program care citeste de la tastatura trei numere. La final va afisa daca numere sunt in ordine crescatoare, descrescatoare sau indecis.
+        System.out.println("Introdu primul numar");
+        int a = scan.nextInt();
+        System.out.println("Introdu al doilea numar");
+        int b = scan.nextInt();
+        System.out.println("Introdu al treilea numar");
+        int c = scan.nextInt();
+        if(a > b && b > c){
+            System.out.println("Numerele introduse sunt in ordine descrescatoare");
+        }else if(c > b && c > a){
+            System.out.println("Numerele introduse sunt in ordine crescatoare");
+        }else {
+            System.out.println("Numerele introduse sunt in ordine indecisa");
+
+        }
+
+
+        }
+
     }
-}
