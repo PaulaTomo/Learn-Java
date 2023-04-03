@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Person;
 
 public class Employees extends Person {
     private double salary;
@@ -9,7 +9,7 @@ public class Employees extends Person {
         this.job = job;
     }
     public String getJob (){
-        return this.firstName + " works as a " + job;
+        return this.getFirstName() + " works as a " + job;
     }
     public double getSalary(){
         return this.salary;

@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Animal;
 
 public class Animal {
     private String name;

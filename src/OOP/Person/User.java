@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Person;
 
 public class User extends Person {
 
@@ -25,11 +25,11 @@ public class User extends Person {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", password=" + password +
-                ", userName='" + username + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
+                ", password = " + password +
+                ", userName ='" + username + '\'' +
+                ", firstName ='" + getFirstName() + '\'' +
+                ", lastName ='" + getLastName() + '\'' +
+                ", age = " + getAge() +
                 '}';
     }
 }

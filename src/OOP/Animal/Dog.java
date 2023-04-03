@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Animal;
 
 public class Dog extends Animal {
     private String gender;
@@ -22,5 +22,8 @@ public class Dog extends Animal {
 
     public String DogBarks() {
         return this.getName() + " barks";
+    }
+    public String animalSounds(){
+        return ("The dog says woof woof");
     }
 }
